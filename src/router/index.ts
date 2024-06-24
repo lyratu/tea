@@ -1,6 +1,6 @@
 // https://router.vuejs.org/zh/
 import type { RouteRecordRaw } from 'vue-router'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
@@ -154,7 +154,7 @@ const routes: RouteRecordRaw[] = [
 
 // 创建路由实例并传递 `routes` 配置
 const router = createRouter({
-  history: createWebHistory(process.env.VUE_APP_PUBLIC_PATH),
+  history: createWebHashHistory(process.env.VUE_APP_PUBLIC_PATH),
   routes,
   scrollBehavior() {
     // 始终滚动到顶部
