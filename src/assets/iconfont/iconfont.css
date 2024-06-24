@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1672215491231') format('truetype');
+}
+
+.icon {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-diamonds:before {
+  content: "\e6b2"; 
+}
+
+.icon-weChatPay:before {
+  content: "\e639";
+}
+.icon-zfbPay:before {
+  content: "\e634";
+}
+
+.icon-password:before {
+  content: "\e669";
+}
+
+.icon-exit:before {
+  content: "\e892";
+}
+
+.icon-moneybag:before {
+  content: "\e7d1";
+}
+
+
+.icon-number:before {
+  content: "\e670";
+}
+
+.icon-auditing:before {
+  content: "\e672";
+}
+
+.icon-goods:before {
+  content: "\e729";
+}
+
+.icon-wrench:before {
+  content: "\e77e";
+}
+
+.icon-move:before {
+  content: "\e62b";
+}
+
+.icon-record:before {
+  content: "\e65e";
+}
+
+.icon-vip:before {
+  content: "\e8b1";
+}
+
+.icon-count:before {
+  content: "\e626";
+}
+
+.icon-tag:before {
+  content: "\e610";
+}
+
+.icon-edit-o:before {
+  content: "\ec88";
+}

@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@antfu"
+  ],
+  "env": {
+    "node": true,
+    "vue/setup-compiler-macros": true
+  },
+  "rules": {
+    "brace-style": "off",
+    "no-console": "off",
+    "@typescript-eslint/brace-style": "off"
+  }
+}

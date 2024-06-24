@@ -1,0 +1,25 @@
+#app {
+  --van-nav-bar-arrow-size: 20px;
+  --van-nav-bar-icon-color: #000000;
+  
+  height: 100vh;
+  color: #333333;
+  overflow-x: hidden;
+  background-color: #FAFAFA;
+  font-family: "PingFang SC", "PingFang SC-Bold";
+}
+
+@font-face {
+  font-family: PingFang SC;
+  src: url("./assets/fonts/PingFang_SC.ttf");
+}
+@font-face {
+  font-family: PingFang SC-Bold;
+  src: url("./assets/fonts/PingFang_SC-Bold.ttf");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
